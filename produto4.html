@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>DarkCharm</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/produto.css">
+</head>
+<body>
+    <header class="container">
+        <h1>
+            <img src="img/logo.png" alt="Logo da Mirror Fashion">
+        </h1>
+        <p class="sacola">
+            Nenhum item na sacola de compras
+        </p>
+        <nav class="menu-opcoes">
+            <ul>
+                <li><a href="#">Sua Conta</a></li>
+                <li><a href="#">Lista de Desejos</a></li>
+                <li><a href="#">Cartão Fidelidade</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="#">Ajuda</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="produto-back">
+        <div class="container">
+            <div class="produto">
+                <h1>Saia Gothic Mid Skirt <h1>
+                <p>por apenas R$ 99,99</p>
+                <form>
+                    <fieldset class="cores">
+                        <legend>Escolha a cor:</legend>
+                        <input type="radio" name="cor" value="roxa" id="roxa" checked />
+                        <label for="roxa">
+                            <img src="img/coturno1.png" alt="Produto na cor roxa" />
+                        </label>
+
+                        <input type="radio" name="cor" value="azul" id="azul" />
+                        <label for="azul">
+                            <img src="img/coturno2.png" alt="Produto na cor azul" />
+                        </label>
+
+                        <input type="radio" name="cor" value="preto" id="preto" />
+                        <label for="preto">
+                            <img src="img/coturno3.png" alt="Produto na cor preto" />
+                        </label>
+                    </fieldset>
+
+                    <fieldset class="tamanhos">
+                        <legend>Escolha o tamanho:</legend>
+                        <input type="range" min="36" max="46" value="42" step="2" name="tamanho" id="tamanho" oninput="display.value=value" />
+                    </fieldset>
+                    <button class="comprar">Comprar</button>
+                </form>
+            </div>
+
+            <div class="detalhes">
+                <h2>Detalhes do produto</h2>
+                <p> Essa é o melhor coturno gótico que você vai encontrar! Ainda mais nesse preço bom pro seu bloso! </p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Característica</th>
+                            <th>Detalhe</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Modelo</td>
+                            <td>Coturnos Goticos</td>
+                        </tr>
+                        <tr>
+                            <td>Material</td>
+                            <td>Couro</td>
+                        </tr>
+                        <tr>
+                            <td>Cores</td>
+                            <td>Roxo, azul escuro e preto</td>
+                        </tr>
+                        <tr>
+                            <td>Lavagem</td>
+                            <td>Lavar a mão</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <img src="img/DarkCharm2.png" alt="Logo da Mirror Fashion">
+            <ul class="social">
+                <li><a href="http://facebook.com/mirrorfashion">Facebook</a></li>
+                <li><a href="http://youtube.com/youtube">Youtube</a></li>
+                <li><a href="http://instagram.com/mirrorfashion">Instagram</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
